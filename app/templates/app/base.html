@@ -91,7 +91,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h3>Twitter: <a href="http://twitter.com/{{ attendee.twitter_username }}">@{{ attendee.twitter_username }}</a></h3>
+                        {% if attendee.twitter_username%}
+                        <h3>Twitter: <a href="http://twitter.com/{{ attendee.twitter_username }}">@{{ attendee.twitter_username }}</a></h3>{% endif %}
                         {% if attendee.email %}
                             <h3>Email: <a href="mailto:{{ attendee.email }}">{{ attendee.email }}</a></h3>
                         {% endif %}
