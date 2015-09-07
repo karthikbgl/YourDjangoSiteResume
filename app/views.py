@@ -9,7 +9,7 @@ from datetime import datetime
 
 YOUR_INFO = {
     'name' : 'Karthik Ravindra',
-    'bio' : 'Code',
+    'bio' : 'I build django based web applications',
     'email' : 'karthik.ravindra@gmail.com',
     'twitter_username' : '', # No @ symbol, just the handle.
     'github_username' : "karthikbgl", 
