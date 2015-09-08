@@ -50,8 +50,9 @@ def health_finder(request):
                 return render(request, "app/healthfinder.html", {
                     'topics': results.get('Topics'),
                     'error': results.get('Error'),
-                    'total': results.get('Total')
+                    'total': results.get('Total'),
+                    'healthfinder': True
                 })
 
 
-    return render(request, "app/healthfinder.html", {'form': form})
+    return render(request, "app/healthfinder.html", {'form': form, 'healthfinder': True})

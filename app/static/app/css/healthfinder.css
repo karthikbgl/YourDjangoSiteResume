@@ -392,3 +392,8 @@ select#who {
 .errorlist li {
     color: red;
 }
+
+.navbar-default .navbar-nav>li>a.active-state {
+    color: #18bc9c;
+    background-color: transparent;
+}
