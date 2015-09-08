@@ -26,12 +26,6 @@ body {
     }
 }
 
-@media(max-width:768px) {
-    .tile{
-        width: 80%;
-        margin: 0 auto;
-    }
-}
 
 .navbar-top-links li {
     display: inline-block;
@@ -370,6 +364,14 @@ table.dataTable thead .sorting:after {
 .tile {
   padding: 10px;
   overflow: hidden;
+}
+
+
+@media(max-width:768px) {
+  .tile{
+     width: 80%;
+     margin: 0 auto;
+  }
 }
 
 .panel .panel-heading {
