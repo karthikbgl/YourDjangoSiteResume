@@ -25,7 +25,7 @@ body {
         border-left: 1px solid #e7e7e7;
     }
 
-    #recommendations .tile{
+    .tile{
         width: 80%;
         margin: 0 auto;
     }
