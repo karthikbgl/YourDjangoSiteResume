@@ -24,6 +24,11 @@ body {
         padding: 0 30px;
         border-left: 1px solid #e7e7e7;
     }
+
+    .tile {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 .navbar-top-links li {
@@ -397,3 +402,4 @@ select#who {
     color: #18bc9c;
     background-color: transparent;
 }
+
